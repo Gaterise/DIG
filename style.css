@@ -1,0 +1,40 @@
+.fullPage{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(#F89174, #FFC778);
+}
+
+#info {
+    font-size: 20px;
+    color: black;
+}
+
+#qrdata {
+    font-size: 20px;
+    background-color: #C0C0C0;
+    color: black;
+    border: solid black 0.5px;
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#backbtn {
+    font-size: 20px;
+    background-color: #ff8f00;
+    color: black;
+    border: solid black 0.5px;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.centerDisplay{
+    text-align:center;
+}
