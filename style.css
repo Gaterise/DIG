@@ -23,18 +23,6 @@
     margin-top: 5px;
 }
 
-#backbtn {
-    font-size: 20px;
-    background-color: #ff8f00;
-    color: black;
-    border: solid black 0.5px;
-    width: 200px;
-    height: auto;
-    border-radius: 5px;
-    outline: none;
-    margin-top: 5px;
-}
-
 .centerDisplay{
     text-align:center;
 }
