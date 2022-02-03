@@ -3,20 +3,19 @@
   
 <head>
     <meta charset="utf-8">
-    <title>QRコード読み取り</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>QRコード読取りツール</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./style.css">
     <script type="text/javascript" src="./jsQR.js"></script>
 </head>
 
 <body>
     <div class="fullPage">
-		<h1 class="centerDisplay">QRコード読み取り</h1>  
-		<div class="centerDisplay" id="info">QRコードをカメラで読み取ってください。UTF-8の文字列じゃないとダメよ</div>
+		<h1 class="centerDisplay">QRコード読取りツール</h1>  
+		<div class="centerDisplay" id="info">QRコードをカメラで読み取ってください。<br>※UTF-8で作成されたQRコードしか読めません</div>
 		<div class="centerDisplay" id="loadingMessage">🎥 カメラを認識中...</div>
-      	<div class="centerDisplay"><canvas id="canvas" hidden></canvas></div>
-        <div class="centerDisplay"><input id="qrdata" placeholder="QRコードのデータが入るよ" type = "text" id = "y_hinban" name = "y_hinban"></div>
-      	<div class="centerDisplay"><button id="backbtn">前のページに戻る</button></div>
+		<div class="centerDisplay"><canvas id="canvas" hidden></canvas></div>
+		<div class="centerDisplay"><input id="qrdata" placeholder="QRコードのデータ" type = "text" id = "y_hinban" name = "y_hinban"></div>
     </div>
     <script type="text/javascript" src="./script.js"></script>
 </body>
