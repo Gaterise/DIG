@@ -91,8 +91,8 @@ const canvas = canvasElement.getContext("2d");
 const cameraSettings = {
 	audio: false,
 	video: {
-		width: 400,
-		height: 300,
+		width: canvas.width,
+		height: canvas.height,
 		facingMode: useCamera()
 	}
   };
